@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap");
+/* La police de base est désormais de 10 px sur tout le document */
+html {
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  background-color: rgba(255, 127, 80, 1);
+}
+h1 {
+  font-size: 4rem;
+}
+.logo {
+  width: 4rem;
+  height: 4rem;
+}
+.atouts {
+  width: 30rem;
+  height: 15rem;
+}
+.photo {
+  position: relative;
+  border: 10px solid rgba(214, 48, 49, 1);
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+}
+aside {
+  background-color: rgba(223, 228, 234, 1);
+  width: 25rem;
+  height: 30rem;
+}
+.position-gauche {
+  float: left;
+}
+.position-droit {
+  float: right;
+}
+.reduction-taille {
+  position: relative;
+}
